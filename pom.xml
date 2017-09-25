@@ -167,6 +167,8 @@
                 <configuration>
                     <productVersion>${jira.version}</productVersion>
                     <productDataVersion>${jira.version}</productDataVersion>
+                    <enableQuickReload>true</enableQuickReload>
+                    <enableFastdev>false</enableFastdev>
 					<!-- Uncomment to install TestKit backdoor in JIRA. -->
 					<!--
 					<pluginArtifacts>
